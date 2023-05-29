@@ -16,7 +16,7 @@ echo Successfully installed! If RDP is dead, rebuild again.
 echo IP:
 tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -r .tunnels[0].public_url || echo "Failed to retreive NGROK authtoken - check again your authtoken"
 echo Username: Rushidhar1999
-echo Password: Admin@null
+echo Password: admin222
 echo You can login now
 echo RDP By @Rushidhar1999
 ping -n 10 127.0.0.1 >nul
